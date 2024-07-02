@@ -1,4 +1,4 @@
-// Get the checkbox element
+ Get the checkbox element
 const checkbox = document.getElementById('optn-prfcard');
 
 // Get the trigger elements
