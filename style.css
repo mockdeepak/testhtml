@@ -244,7 +244,6 @@ html {
   background-image: radial-gradient( circle 369px at -2.9% 12.9%,  rgba(247,234,163,1) 0%, rgba(236,180,238,0.56) 46.4%, rgba(163,203,247,1) 100.7% );
   border: 2px solid white;
   padding: 8px;
-   width: 23%;
   
 }
 
@@ -320,8 +319,8 @@ html {
 
 .prfcard-img {
   position: absolute;
-  width: 30%;
-  height: 45%;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-color: #0A1A44;
   margin-bottom: 10px;
@@ -331,22 +330,24 @@ html {
 }
 
 .prfcard-img img {
-  width: 140%;
+  width: 100px;
   margin-left: -12px;
   transition: width 0.25s ease-in-out;
 }
 
 .prfcard:hover .prfcard-txt-bnr img {
-  width: 110%;
+  width: 250px;
+  height: auto;
 }
 
 .prfcard:hover .prfcard-img img {
-  width: 150%;
+  width: 150px;
+  height: auto;
 }
 
 .prfcard:hover .prfcard-img {
-  width: 35%;
-  height: 52%;
+  width: 100px;
+  height: 100px;
 }
 
 .prfcard:hover .prfcard-txt-cntn-box p {
