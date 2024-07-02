@@ -1,31 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Google Sheets Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FamePo Creator Console</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Add User</h1>
-    <form id="user-form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <button type="submit">Submit</button>
-    </form>
-    
-    <h2>Search User</h2>
-    <form id="search-form">
-        <label for="search-name">Name:</label>
-        <input type="text" id="search-name" name="search-name" required><br><br>
-        <button type="submit">Search</button>
-    </form>
-    <h2>Search Results</h2>
-    <ul id="search-results"></ul>
+   <header>
+    <div class="hdr-container">
+        <img src="FamePo Logo.png" alt="">
+    </div>
+    <div class="hdr-container">
+        <div class="hrdlvtxt">We <i class="fi fi-ss-heart"></i> FamePo</div>
+    </div>
+    <div class="hdr-container">
+        <div class="hdr-icon"></div>
+        <div class="hdr-icon"></div>
+        <div class="hdr-icon"></div>
+    </div>
+   </header>
+   <div class="container">
+    <div class="main">
+    <div class="usrprfcntnr cntnrprpt">
+        <div class="prfcard">
+            <div class="prfcard-txt-bnr"><img src="hero-bg.jpg" alt=""> </div>
+            <div class="prfcard-txt">
+                <div class="prfcard-txt-cntnt">
+                    <div class="prfcard-txt-cntn-box"></div>
+                    <div class="prfcard-txt-cntn-box">
+                    <h2 id="userName">Deepak Kumar</h2>
+                    <p id="userid-sm">TFC-001 <span id="usertype-s">Blogger</span></p>
+             
+                </div>
 
-    <h2>Users</h2>
-    <ul id="user-list"></ul>
+                </div>
+            </div>
+            <div class="prfcard-img"><img src="prfPic.jpg" alt=""></div>
+        </div>
+        <div class="prfcard-details">
+            <div class="prfcard-details-box">
+                <div class="prfcard-optn">
+                    <p class="chkbox-optn-prf"  id="id-chkbox-optn-prf">Profile</p>
+                    <p class="camp-optn-lbl" id="id-camp-optn-lbl">Campaign</p>
+                    <input type="checkbox" id="optn-prfcard">
+                    <label class="checkbox-button"></label>
+                </div>
+                <div class="prfcard-details-cntnt" id="prfcard-details-cntnt">
+                    <div class="prfcard-details-ss-b front" id="Usr-dtl-card"> 
+                        <div class="prfcard-dtl-txt">
+                            <div class="ptrn-id"><i class="fa-solid fa-user"></i></div>
+                            <div class="userinfo" id="user-dob">15 Sep 2000</div>
+                            <div class="userinfo" id="user-cnt-no">8882558932</div>
+                            <div class="userinfo" id="address">Shiv Vihar Delhi</div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+                        </div>
+                        <div class="prfcard-ss-btn">
+                            <div class="ss-box-pf-cd"><i class="fa-brands fa-facebook-f"></i></i></div>
+                            <div class="ss-box-pf-cd"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="ss-box-pf-cd"><i class="fa-brands fa-youtube"></i></div>
+                            <div class="ss-box-pf-cd"><i class="fa-brands fa-linkedin"></i></div>
+                            
+                        </div>
+                    </div>
+                    <div class="prfcard-details-ss-b back" id="Camp-dtl-card"></div>
+                </div>
+
+           </div> 
+       </div>
+
+    </div>
+    <div class="usrdtacntnr cntnrprpt">
+    </div>
+    </div>
+    <div class="footer"></div>
+   </div>
+   <script src="script.js"></script>
+   <script src="https://kit.fontawesome.com/ff989e0e08.js" crossorigin="anonymous"></script>
 </body>
 </html>
